@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<title>MINI VOTING SYSTEM</title>
+	<style>
+	body {
+		background-color: black;
+	</style>
+</head>
+<body>
+
+	<h1>DEMOCRACY</h1> 
+
+	<p>
+        Democracy is that form of governance where the elected representatives from the public make the government.
+        Voting is the right that each adult individual has to elect the representative for the government.
+        So voting for a representative to govern is the way the public participates in the governance of the state.
+        In a democracy where everyone has a say in the matters of policy making it is only possible to elect a few representatives who express the opinions on behalf of the public.
+        The importance of voting in a democracy lies in the idea behind the form of governance.
+        The voting process decides under which government your entire nation will work.
+        And if somebody has faith in a candidate, he should definitely vote for him because voting is critical. Results are a different factor, but every person should vote. Sometimes a vote can decide the future of a nation and that could be the instance when you might be cursing yourself for not voting, that is why voting is essential
+	</p>
+
+	<button onclick="darkMode()">Darkmode</button>
+	<button onclick="lightMode()">LightMode</button>
+    <button class="clkbtn">Voter's Page<a href="V1.html"></a></button>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "dark-mode";
+		content.innerText = "Dark Mode is ON";
+	}
+    function lightMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "light-mode";
+		content.innerText = "Dark Mode is OFF";
+	}
+
+	</script>
+</body>
+</html>
