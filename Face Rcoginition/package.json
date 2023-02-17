@@ -1,0 +1,17 @@
+{
+  "name": "face-rcoginition",
+  "version": "1.0.0",
+  "description": "face rcoginition from webcam and using face-api.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node source/app.js",
+    "vote": "nodemon source/app.js -l -e js,html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "404found",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
